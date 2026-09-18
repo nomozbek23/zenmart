@@ -249,3 +249,235 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+
+.home_page .bottom_frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 500px;
+  background-color: rgba(243, 245, 246, 1);
+}
+
+.bottom_frame .container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .karopka1 {
+  display: flex;
+  flex-direction: column;
+}
+.karopka1 strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.karopka1 .telephone {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.telephone div {
+  display: flex;
+  flex-direction: column;
+}
+.telephone p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.telephone span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.telephone img {
+  width: 32.28px;
+  height: 27.18px;
+}
+
+.karopka2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.karopka2 strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.karopka2 p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.karopka3 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.karopka3 strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.icons_box i {
+  margin-right: 28px;
+  margin-bottom: 30px;
+}
+
+.bar_bor span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.karopka3 .bar_bor {
+  margin-bottom: 15px;
+}
+.bar_bor img {
+  margin-right: 21px;
+}
+
+.karopka4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.karopka4 strong {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+/* PAST FRAME */
+.home_page .past_frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+  background-color: rgba(243, 245, 246, 1);
+}
+.past_frame .container_box {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 19px;
+  border-top: 1px solid rgba(234, 234, 234, 1);
+}
+.past_frame .container_box .chap {
+  display: flex;
+  flex-direction: row;
+}
+
+.past_frame .chap p {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 66px;
+}
+.past_frame .privacy span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.past_frame .container_box .ong {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.past_frame .ong select {
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  outline: none;
+
+  color: rgb(4, 30, 66);
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.past_frame .ong .usd {
+  width: 187.77px;
+  height: 40.1px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(234, 234, 234, 1);
+  background-color: #fff;
+  margin-right: 21px;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+
+.past_frame .ong p {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 22px;
+}
+.past_frame .ong .language {
+  width: 187.77px;
+  height: 40.1px;
+  border: 1px solid rgba(234, 234, 234, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 0 15px;
+}

@@ -202,8 +202,8 @@
 
 .container .review_box img {
   margin-right: 5px;
-  width: 9.25px;
-  height: 10px;
+  /* width: 9.25px;
+  height: 10px; */
 }
 
 .container .review_box span {
@@ -638,6 +638,7 @@
   font-size: 26px;
   font-weight: 500;
   line-height: 38px;
+
   /* Beats Studio Buds */
   width: 161.81px;
   height: 76px;
@@ -746,7 +747,7 @@
   flex-direction: column;
 }
 
-.container .tv_wrapper {
+.tv_frame .container .tv_wrapper {
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -756,7 +757,7 @@
   justify-content: space-between;
 }
 
-.tv_wrapper .tv_product_boxes {
+.tv_frame .tv_wrapper .tv_product_boxes {
   width: 1300px;
   height: 452px;
 
@@ -764,7 +765,7 @@
   flex-direction: row;
 }
 
-.tv_product_boxes .tv_product_box {
+.tv_frame .tv_product_boxes .tv_product_box {
   width: 260px;
   height: 452px;
 
@@ -781,7 +782,226 @@
   justify-content: center;
   align-items: center;
 }
-.product_img img {
+.review_box img {
+  width: auto;
+  height: auto;
+}
+.tv_frame .product_img img {
   width: 212.81px;
   height: 230px;
+}
+/* PS FRAME */
+.home_page .ps_frame {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ps_frame .container {
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.ps_frame .container .calendar {
+  display: flex;
+  flex-direction: column;
+  width: 334.03px;
+  height: 214px;
+}
+
+.ps_frame .calendar p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  /* line-height: 40px; */
+}
+
+.ps_frame .calendar .sanalar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ps_frame .sanalar div {
+  margin-top: 30px;
+}
+.ps_frame .sanalar strong {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 52.41px;
+  height: 40px;
+}
+
+.ps_frame .sanalar p {
+  /* Days */
+  width: 38.74px;
+  height: 28px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.ps_frame .calendar button {
+  margin-top: 30px;
+  width: 141.79px;
+  height: 52px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px 35px 15px 35px; */
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.ps_frame .container .ps_boxes {
+  margin-left: 17px;
+  position: relative;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.ps_frame .ps_boxes .boxess {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ps_frame .ps_boxes .chap {
+  /* position: absolute; */
+  margin: 5px;
+  top: 50%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: 61.94px;
+  height: 70px; */
+}
+
+.ps_frame .ps_boxes {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.ps_frame .ps_boxes .oq_box {
+  /* Rectangle 261 */
+  width: 205.28px;
+  height: 392px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 9px;
+}
+.ps_frame .oq_box a {
+  margin: 0 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ps_frame .oq_box img {
+  box-sizing: border-box;
+}
+
+.ps_frame .oq_box .sony p {
+  margin-top: 16px;
+
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.ps_frame .oq_box strong {
+  margin-top: 7px;
+
+  width: 168.11px;
+  height: 56px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ps_frame .oq_box a .yulduz {
+  /* display: flex; */
+}
+
+.ps_frame .yulduz span {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.ps_frame .oq_box a .narx {
+  width: 88px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps_frame .narx span {
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.ps_frame .narx p {
+  color: rgba(98, 105, 116, 1);
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: line-through;
 }
